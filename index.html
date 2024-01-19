@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy's Café Search</title>
+</head>
+<body>
+    <div>
+        <label for="searchBox">Search Cafes:</label>
+        <input type="text" id="searchBox" oninput="searchCafes()">
+    </div>
+    <table id="cafeTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody id="cafeList">
+            <!-- Cafe list will be populated here -->
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
